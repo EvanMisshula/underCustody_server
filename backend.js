@@ -9,6 +9,7 @@ app.use(express.json()); //access to json body, client side data
 
 //ROUTES
 //get all underCustody data
+
 app.get("/underCustody", async (req, res) => {
   try {
     // console.log(req. query)
